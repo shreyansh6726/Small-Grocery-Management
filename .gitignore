@@ -424,3 +424,91 @@ FodyWeavers.xsd
 
 # Official VS Code C# Dev Kit Extension exclusion
 #*.lscache
+
+# =====================================
+# Python
+# =====================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# =====================================
+# IDEs & Editors
+# =====================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# =====================================
+# Database (MySQL & Local Data)
+# =====================================
+# Local database files, dumps, and exports
+*.sql
+*.sqlite
+*.db
+*.bak
+dump.sql
+database.db
+
+# =====================================
+# Environment Variables & Secrets
+# =====================================
+# Keep your MySQL credentials and secret keys safe!
+.env
+config.json
+secrets.ini
+credentials.py
+
+# =====================================
+# Tkinter & GUI Specific
+# =====================================
+# Logs, temporary session files, or local asset caches
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

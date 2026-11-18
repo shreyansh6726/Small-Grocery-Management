@@ -1,0 +1,6 @@
+# MongoDB Object-Document Mapper (ODM) and validation
+mongoengine==0.29.1
+pymongo==4.11.0
+
+# Secure environment variable handling for database URIs and secrets
+python-dotenv==1.0.1
